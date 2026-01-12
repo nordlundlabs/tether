@@ -2,9 +2,9 @@
 
 namespace NordlundLabs\Tether;
 
+use NordlundLabs\Tether\Commands\TetherCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use NordlundLabs\Tether\Commands\TetherCommand;
 
 class TetherServiceProvider extends PackageServiceProvider
 {
