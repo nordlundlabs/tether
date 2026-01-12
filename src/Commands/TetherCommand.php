@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace NordlundLabs\Tether\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class TetherCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'tether';
 
     public $description = 'My command';
 
